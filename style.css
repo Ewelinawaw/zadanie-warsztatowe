@@ -1,0 +1,152 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	background: #ebebeb;
+}
+
+h1 {
+	margin-bottom: 0.5rem;
+	font-size: 1.4rem;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/* 0. Generic stuff */
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+.oneThird {
+	display: inline-block;
+	margin-right: 5%;
+	font-size: 0;
+	width: 29.5%;
+}
+
+.last {
+	margin-right: 0;
+}
+
+.oneThird p {
+	font-size: 1rem;
+}
+
+.image {
+	margin-bottom: 20px;
+	background: #fff;
+	border-radius: 3px;
+	border: solid 1px #d8d9db;
+	height: 150px;
+}
+
+/* 1. Master Header */
+
+#master-header {
+	background: #191919;
+	padding: 25px 0;
+	height: 90px;
+}
+#master-header #logo {
+	position: relative;
+	bottom: 10px;
+}
+
+#master-header nav {
+	float: right;
+	display: inline-block;
+}
+#master-header a {
+	padding: 10px 15px;
+	font-size: 1.1rem;
+	color: #fff;
+	text-decoration: none;
+}
+
+#master-header li,
+#master-header a {
+	display: inline-block;
+}
+
+/* 2. Slider */
+
+#slider-wrapper {
+	overflow: hidden;
+	width: 1663px;
+}
+
+#slider {
+	font-size: 0;
+	position: relative;
+	width: 4989px;
+	-webkit-animation: slide 20s infinite;
+}
+#slider,
+#slider li {
+	height: 585px;
+}
+
+#slider li {
+	font-size: 1rem;
+	display: inline-block;
+	width: 1663px;
+}
+
+#slider .slide1 {
+	background: url("img/slide1.jpg");
+}
+
+#slider .slide2 {
+	background: url("img/slide2.jpg");
+}
+
+#slider .slide3 {
+	background: url("img/slide3.jpg");
+}
+
+/* 3. Main */
+
+#main {
+	padding: 50px 0 250px 0;
+}
+
+#book {
+	position: relative;
+	bottom: 110px;
+	margin-bottom: -60px;
+	background: #fff;
+	border-radius: 5px;
+	border: solid 3px rgba(0, 0, 0, 0.2);
+	height: 100px;
+}
+
+/* Footer */
+
+#master-footer {
+	text-align: center;
+	font-size: 0.8rem;
+	background: #fff;
+	color: #373535;
+	line-height: 70px;
+	height: 70px;
+}
+
+#master-footer #copyrights {
+	float: left;
+	display: inline-block;
+}
+
+
+
+

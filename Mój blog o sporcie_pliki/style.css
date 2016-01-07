@@ -1,0 +1,34 @@
+body {
+	font-family: Karla;
+	font-weight: bold;
+}
+	article {
+	margin: 20px;
+	padding: 20px;
+	border: solid 5px black;
+	background: url("http://img.wikinut.com/img/gycf69_-6rv_5fol/jpeg/0/Best-Friends-Img-Src%3AImage%3A-FreeDigitalPhotos.net.jpeg") center center no-repeat;
+	margin: 100px 0 0 50px;
+	margin-top: 10px;
+	padding: 100px;
+}
+	h1, h2, h3, h4, h5 {
+		font: 60px/120% Arial, serif;
+	}
+#green-article {
+	font: 60px/120% Arial, serif;
+
+}
+.important {
+background: green; 
+}
+.hidden {
+display: none;
+}
+
+.red {
+	color: red !important;
+}
+.blue {
+	color: blue !important
+}
+
